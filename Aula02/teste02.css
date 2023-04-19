@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+}
+
+nav {
+    background-image: linear-gradient(to bottom, #00050A, #001C3D );
+    box-shadow: 0 2px 8px #000000;
+    position: fixed;
+    width:100%;
+    z-index: 9999;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .logo a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar a {
+    display: block;
+    padding: 20px;
+    color: #ffffff98;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #ffffff;
+    transition: color 0.3s ease;
+  }
+
+  main {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+  
+  .card-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 300px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .card h2 {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  .card p {
+    font-size: 16px;
+    margin: 20px;
+  }
+  
+  .card a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card a:hover {
+    background-color: #001C3D;
+    transition: background-color 0.3s ease;
+  }
+  
+  footer {
+    background-color: #001C3D;
+    color: rgba(255, 255, 255, 0.603);
+    text-align: center;
+    font-size: 0.8;
+    padding: 2px;
+    box-shadow: to top 0 2px 8px #000000;
+}
+
+footer a {
+    color: rgba(255, 255, 255, 0.767);
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 5px;
+
+
+}
+
+footer a:hover {
+    color: white;
+    padding: 5px;
+    transition: 0.8s;
+
+}
+  
+  
+  
